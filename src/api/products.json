@@ -2,16 +2,21 @@
     {
         "id": 0,
         "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1606068354/Croma%20Assets/Communication/Mobiles/Images/9006246756382.png/mxw_640,f_auto",
-        "title": "Samsung"
+        "title": "Oppo"
     },
     {
         "id": 1,
         "image": "https://images.samsung.com/is/image/samsung/p6pim/sg/2202/gallery/sg-galaxy-a53-5g-a536-sm-a536elbgxsp-thumb-531405024?$320_320_PNG$",
-        "title": "IPhone"
+        "title": "Samsung"
     },
     {
         "id": 2,
-        "image": "https://d316acfc88wber.cloudfront.net/global/phones/spark8T/SPARK8T-blue.png",
-        "title": "Lenovo"
-    }
+        "image": "http://res.cloudinary.com/dtvdec6j1/image/upload/v1682777144/bhqtcnn3v97tzvsvxgci.webp",
+        "title": "Rog"
+    },
+    {
+        "id": 3,
+        "image": "http://res.cloudinary.com/dtvdec6j1/image/upload/v1682776989/dkrp8qoovjcthipnrwec.webp",
+        "title": "OnePlus"
+    }   
 ]

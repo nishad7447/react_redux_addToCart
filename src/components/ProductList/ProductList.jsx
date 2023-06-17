@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import products from '../../api/products.json'
-import BeforeCart from './CartButtons/BeforeCart'
-import AfterCart from './CartButtons/AfterCart'
-import { useSelector } from 'react-redux'
+import { CartButtons } from './CartButtons'
 import "./ProductList.css";
 
 export default function ProductList() {
-    const {cartCount}=useSelector((state)=>state.cart)
-    console.log(cartCount);
+
   return (
     <section className='container'>
         {
@@ -15,9 +12,7 @@ export default function ProductList() {
                 <div className='product-container' key={key}>
                     <img src={product?.image} alt="" />
                     <h3>{product?.title}</h3>
-                    {
-                        cartCount>0 ? <AfterCart /> : <BeforeCart />
-                    }                    
+                    <CartButtons product={product}/>
                 </div>
             ))
         }
