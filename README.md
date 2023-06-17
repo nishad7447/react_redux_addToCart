@@ -1,8 +1,7 @@
 
 # React Redux Add to Cart
 
-This is a simple React Redux application that demonstrates adding items to a cart. It provides an interface to add products to a cart and increment/decrement the quantity of each item in the cart. If the quantity of an item is reduced to zero, it will be automatically removed from the cart.
-Checkout => https://react-redux-add-to-cart-flame.vercel.app/
+This is a simple React Redux application that demonstrates adding items to a cart. It provides an interface to add products to a cart and increment/decrement the quantity of each item in the cart. If the quantity of an item is reduced to zero, it will be automatically removed from the cart check it out => https://react-redux-add-to-cart-flame.vercel.app/
 ## Installation
 
 1. Clone the repository to your local machine:
